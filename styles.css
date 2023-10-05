@@ -12,13 +12,13 @@ body {
 .form {
   box-shadow: 5px 5px 5px 5px gray;
   border-radius: 3%;
-  height: 200px;
-  width: 190px;
+  height: 400px;
+  width: 300px;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 h1 {
@@ -27,15 +27,37 @@ h1 {
 
 .input {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.text {
+  font-size: 17px;
+  margin-left: 6px;
+}
+
+.social {
+  display: flex;
+  align-items: space-around;
+  gap: 3em;
+  color: rgb(57, 29, 34);
+}
+.text label {
+  order: 1;
+}
+
+.checkbox {
+  display: flex;
 }
 
 button {
-  background-color: teal;
+  background-color: rgb(10, 10, 10);
   color: white;
   width: 100px;
   height: 30px;
-  align-items: center;
-  justify-content: center;
   border-radius: 4px;
+  padding-top: 3.5px;
+  display: flex;
+  align-items: center;
 }
