@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login UI by Ashley Rice</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
     <script
       src="https://kit.fontawesome.com/7708d25d75.js"
       crossorigin="anonymous"
@@ -13,7 +14,7 @@
   <body></body>
 </html>
 <div class="container"></div>
-<form class="form">
+<form class="form" action="login-html" method="POST">
   
  <h1>Hello</h1><a href="#" class="new">new here? sign up</a>
   <label>
@@ -29,7 +30,7 @@
  <div class="checkbox"><input id="remember" class="input" type="checkbox" value="IsRememberMe"><span class ="remember">remember me next time</span><label for="checkbox"></label></div>
 
 
-<button class="input button" type="submit">Login</button>
+<button class="input button" type="submit" onclick="validate()>Login</button>
 <div class="social">
    <i class="fa-brands fa-instagram fa-2x"></i>
    <i class="fa-brands fa-facebook fa-2x"></i>
